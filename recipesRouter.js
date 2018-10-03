@@ -16,6 +16,11 @@ Recipes.create("milkshake", [
   "1 cup milk"
 ]);
 
+Recipes.create("My Secret Sauce", [
+  "2 packets of Ketchup",
+  "1 tbs of mustard"
+]);
+
 // send back JSON representation of all recipes
 // on GET requests to root
 router.get("/", (req, res) => {
